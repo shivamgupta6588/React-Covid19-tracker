@@ -5,6 +5,7 @@ import EventClick from "./Components/EventClick";
 import { ClassClick } from "./Components/ClassClick";
 import EventBind from './Components/EventBind';
 import ListRendering from './Components/ListRendering';
+import StyleSheet from './Components/StyleSheet';
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,10 @@ function App() {
      <ClassClick/> */}
 
 
-    <EventBind/>
-    <ListRendering/>
+    {/* <EventBind/>
+    <ListRendering/> */}
+
+    <StyleSheet/>
     </div>
   );
 }
