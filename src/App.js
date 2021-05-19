@@ -6,6 +6,11 @@ import { ClassClick } from "./Components/ClassClick";
 import EventBind from './Components/EventBind';
 import ListRendering from './Components/ListRendering';
 import StyleSheet from './Components/StyleSheet';
+import FormComp from './Components/FormComp';
+import ClassCounter from "./Components/ClassCounter";
+import HookCounter from "./HookCounter";
+import HookCounterTwo from "./Components/HookCounterTwo";
+import HookCounterThree from "./Components/HookCounterThree";
 function App() {
   return (
     <div className="App">
@@ -18,7 +23,14 @@ function App() {
     {/* <EventBind/>
     <ListRendering/> */}
 
-    <StyleSheet/>
+    {/* <StyleSheet/> */}
+
+{/* <FormComp/> */}
+<ClassCounter/>
+<HookCounter/>
+<HookCounterTwo/>
+<HookCounterThree/>
+
     </div>
   );
 }
