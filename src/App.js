@@ -11,6 +11,7 @@ import ClassCounter from "./Components/ClassCounter";
 import HookCounter from "./HookCounter";
 import HookCounterTwo from "./Components/HookCounterTwo";
 import HookCounterThree from "./Components/HookCounterThree";
+import UseHookEffect from "./Components/UseHookEffect";
 function App() {
   return (
     <div className="App">
@@ -26,11 +27,11 @@ function App() {
     {/* <StyleSheet/> */}
 
 {/* <FormComp/> */}
-<ClassCounter/>
+{/* <ClassCounter/>
 <HookCounter/>
 <HookCounterTwo/>
-<HookCounterThree/>
-
+<HookCounterThree/> */}
+<UseHookEffect/>
     </div>
   );
 }
