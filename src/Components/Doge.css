@@ -1,0 +1,23 @@
+tbody{text-align: left;
+}
+
+
+tr:nth-child(even)
+{background-color: #f2f2f2}
+
+tr{
+  font-size: 12px;
+}
+
+
+
+
+.abc{
+  background-color: #4CAF50;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+.heading{font-family: 'Pattaya', sans-serif;
+font-size: 37px;}
+
