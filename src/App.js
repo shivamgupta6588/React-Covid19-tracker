@@ -13,6 +13,7 @@ import HookCounterTwo from "./Components/HookCounterTwo";
 import HookCounterThree from "./Components/HookCounterThree";
 import UseHookEffect from "./Components/UseHookEffect";
 import DataFetch from "./Components/DataFetch";
+import DataFetch2 from "./Components/DataFetch2";
 function App() {
   return (
     <div className="App">
@@ -33,7 +34,7 @@ function App() {
 <HookCounterTwo/>
 <HookCounterThree/> */}
 {/* <UseHookEffect/> */}
-<DataFetch/>
+<DataFetch2/>
     </div>
   );
 }

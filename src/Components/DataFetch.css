@@ -1,0 +1,31 @@
+th{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    color: white;
+    background-color: #4CAF50; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+ 
+  }
+
+
+  tbody{
+    text-align: left;
+  }
+  
+  
+  tr:nth-child(even)
+{
+  background-color: #f2f2f2}
+  
+  tr{
+    font-size: 12px;
+  }
+
+  table {
+    text-align: left;
+    position: relative;
+    border-collapse: separate; 
+    border-spacing: 0;
+  }
